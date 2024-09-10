@@ -37,10 +37,10 @@ namespace Operadores_Aritmeticos
             this.txtnumero1 = new System.Windows.Forms.TextBox();
             this.txtnumero2 = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnsuma = new System.Windows.Forms.Button();
+            this.btnmultiplicacion = new System.Windows.Forms.Button();
+            this.btndivision = new System.Windows.Forms.Button();
+            this.btnresta = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
@@ -136,10 +136,10 @@ namespace Operadores_Aritmeticos
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Controls.Add(this.button1, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.button3, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.button4, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.button2, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.btnsuma, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.btnmultiplicacion, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.btndivision, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.btnresta, 1, 0);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(829, 224);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
@@ -148,49 +148,49 @@ namespace Operadores_Aritmeticos
             this.tableLayoutPanel1.Size = new System.Drawing.Size(244, 232);
             this.tableLayoutPanel1.TabIndex = 7;
             // 
-            // button1
+            // btnsuma
             // 
-            this.button1.BackColor = System.Drawing.Color.Salmon;
-            this.button1.BackgroundImage = global::Operadores_Aritmeticos.Properties.Resources.mas;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button1.Location = new System.Drawing.Point(3, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(115, 110);
-            this.button1.TabIndex = 0;
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnsuma.BackColor = System.Drawing.Color.Salmon;
+            this.btnsuma.BackgroundImage = global::Operadores_Aritmeticos.Properties.Resources.mas;
+            this.btnsuma.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnsuma.Location = new System.Drawing.Point(3, 3);
+            this.btnsuma.Name = "btnsuma";
+            this.btnsuma.Size = new System.Drawing.Size(115, 110);
+            this.btnsuma.TabIndex = 0;
+            this.btnsuma.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btnmultiplicacion
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.button3.BackgroundImage = global::Operadores_Aritmeticos.Properties.Resources.multiplicacion;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button3.Location = new System.Drawing.Point(3, 119);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(115, 102);
-            this.button3.TabIndex = 2;
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnmultiplicacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnmultiplicacion.BackgroundImage = global::Operadores_Aritmeticos.Properties.Resources.multiplicacion;
+            this.btnmultiplicacion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnmultiplicacion.Location = new System.Drawing.Point(3, 119);
+            this.btnmultiplicacion.Name = "btnmultiplicacion";
+            this.btnmultiplicacion.Size = new System.Drawing.Size(115, 102);
+            this.btnmultiplicacion.TabIndex = 2;
+            this.btnmultiplicacion.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // btndivision
             // 
-            this.button4.BackColor = System.Drawing.Color.SlateBlue;
-            this.button4.BackgroundImage = global::Operadores_Aritmeticos.Properties.Resources.dividir;
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button4.Location = new System.Drawing.Point(125, 119);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(115, 102);
-            this.button4.TabIndex = 3;
-            this.button4.UseVisualStyleBackColor = false;
+            this.btndivision.BackColor = System.Drawing.Color.SlateBlue;
+            this.btndivision.BackgroundImage = global::Operadores_Aritmeticos.Properties.Resources.dividir;
+            this.btndivision.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btndivision.Location = new System.Drawing.Point(125, 119);
+            this.btndivision.Name = "btndivision";
+            this.btndivision.Size = new System.Drawing.Size(115, 102);
+            this.btndivision.TabIndex = 3;
+            this.btndivision.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btnresta
             // 
-            this.button2.BackColor = System.Drawing.Color.Red;
-            this.button2.BackgroundImage = global::Operadores_Aritmeticos.Properties.Resources.menos;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button2.Location = new System.Drawing.Point(125, 3);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(115, 110);
-            this.button2.TabIndex = 1;
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnresta.BackColor = System.Drawing.Color.Red;
+            this.btnresta.BackgroundImage = global::Operadores_Aritmeticos.Properties.Resources.menos;
+            this.btnresta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnresta.Location = new System.Drawing.Point(125, 3);
+            this.btnresta.Name = "btnresta";
+            this.btnresta.Size = new System.Drawing.Size(115, 110);
+            this.btnresta.TabIndex = 1;
+            this.btnresta.UseVisualStyleBackColor = false;
             // 
             // panel1
             // 
@@ -256,10 +256,10 @@ namespace Operadores_Aritmeticos
         private System.Windows.Forms.TextBox txtnumero1;
         private System.Windows.Forms.TextBox txtnumero2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnsuma;
+        private System.Windows.Forms.Button btnresta;
+        private System.Windows.Forms.Button btnmultiplicacion;
+        private System.Windows.Forms.Button btndivision;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label6;
