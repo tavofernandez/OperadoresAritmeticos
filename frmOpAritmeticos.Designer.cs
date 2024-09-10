@@ -33,14 +33,14 @@ namespace Operadores_Aritmeticos
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.lblresultado = new System.Windows.Forms.Label();
+            this.txtnumero1 = new System.Windows.Forms.TextBox();
+            this.txtnumero2 = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
@@ -96,39 +96,39 @@ namespace Operadores_Aritmeticos
             this.label4.TabIndex = 3;
             this.label4.Text = "Resultado:";
             // 
-            // label5
+            // lblresultado
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Franklin Gothic Book", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label5.Location = new System.Drawing.Point(576, 565);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(67, 39);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "-----";
+            this.lblresultado.AutoSize = true;
+            this.lblresultado.BackColor = System.Drawing.Color.Transparent;
+            this.lblresultado.Font = new System.Drawing.Font("Franklin Gothic Book", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblresultado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lblresultado.Location = new System.Drawing.Point(576, 565);
+            this.lblresultado.Name = "lblresultado";
+            this.lblresultado.Size = new System.Drawing.Size(67, 39);
+            this.lblresultado.TabIndex = 4;
+            this.lblresultado.Text = "-----";
             // 
-            // textBox1
+            // txtnumero1
             // 
-            this.textBox1.BackColor = System.Drawing.Color.Purple;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(583, 274);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(212, 35);
-            this.textBox1.TabIndex = 5;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtnumero1.BackColor = System.Drawing.Color.Purple;
+            this.txtnumero1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtnumero1.ForeColor = System.Drawing.Color.White;
+            this.txtnumero1.Location = new System.Drawing.Point(583, 274);
+            this.txtnumero1.Name = "txtnumero1";
+            this.txtnumero1.Size = new System.Drawing.Size(212, 35);
+            this.txtnumero1.TabIndex = 5;
+            this.txtnumero1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox2
+            // txtnumero2
             // 
-            this.textBox2.BackColor = System.Drawing.Color.Purple;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.White;
-            this.textBox2.Location = new System.Drawing.Point(583, 365);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(212, 35);
-            this.textBox2.TabIndex = 6;
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtnumero2.BackColor = System.Drawing.Color.Purple;
+            this.txtnumero2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtnumero2.ForeColor = System.Drawing.Color.White;
+            this.txtnumero2.Location = new System.Drawing.Point(583, 365);
+            this.txtnumero2.Name = "txtnumero2";
+            this.txtnumero2.Size = new System.Drawing.Size(212, 35);
+            this.txtnumero2.TabIndex = 6;
+            this.txtnumero2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // tableLayoutPanel1
             // 
@@ -159,17 +159,6 @@ namespace Operadores_Aritmeticos
             this.button1.TabIndex = 0;
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Red;
-            this.button2.BackgroundImage = global::Operadores_Aritmeticos.Properties.Resources.menos;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button2.Location = new System.Drawing.Point(125, 3);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(115, 110);
-            this.button2.TabIndex = 1;
-            this.button2.UseVisualStyleBackColor = false;
-            // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
@@ -191,6 +180,17 @@ namespace Operadores_Aritmeticos
             this.button4.Size = new System.Drawing.Size(115, 102);
             this.button4.TabIndex = 3;
             this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Red;
+            this.button2.BackgroundImage = global::Operadores_Aritmeticos.Properties.Resources.menos;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button2.Location = new System.Drawing.Point(125, 3);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(115, 110);
+            this.button2.TabIndex = 1;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // panel1
             // 
@@ -230,10 +230,10 @@ namespace Operadores_Aritmeticos
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.lblresultado);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtnumero2);
+            this.Controls.Add(this.txtnumero1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -252,9 +252,9 @@ namespace Operadores_Aritmeticos
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label lblresultado;
+        private System.Windows.Forms.TextBox txtnumero1;
+        private System.Windows.Forms.TextBox txtnumero2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
