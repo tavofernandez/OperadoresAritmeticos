@@ -170,6 +170,7 @@ namespace Operadores_Aritmeticos
             this.btnmultiplicacion.Size = new System.Drawing.Size(115, 102);
             this.btnmultiplicacion.TabIndex = 2;
             this.btnmultiplicacion.UseVisualStyleBackColor = false;
+            this.btnmultiplicacion.Click += new System.EventHandler(this.btnmultiplicacion_Click);
             // 
             // btndivision
             // 

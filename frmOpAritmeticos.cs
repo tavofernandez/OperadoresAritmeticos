@@ -38,6 +38,21 @@ namespace Operadores_Aritmeticos
             lblresultado.Text = resultado.ToString();
         }
 
+        private void btnmultiplicacion_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Multiplicacion()
+        {
+            numero1 = Convert.ToDouble(txtnumero1);
+            numero2 = Convert.ToDouble(txtnumero2);
+
+            resultado = numero1 * numero2;
+
+            lblresultado.Text = resultado.ToString();
+        }
+
         private void Suma()
         {
             numero1 = Convert.ToDouble(txtnumero1.Text);
