@@ -240,6 +240,7 @@ namespace Operadores_Aritmeticos
             this.Name = "frmOpAritmeticos";
             this.Text = "frmOpAritmeticos";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.frmOpAritmeticos_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

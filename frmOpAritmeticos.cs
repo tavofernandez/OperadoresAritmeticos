@@ -15,5 +15,12 @@ namespace Operadores_Aritmeticos
         {
             InitializeComponent();
         }
+
+        double numero1, numero2, resultado;
+
+        private void frmOpAritmeticos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
