@@ -20,7 +20,7 @@ namespace Operadores_Aritmeticos
 
         private void btnsuma_Click(object sender, EventArgs e)
         {
-            
+            Suma();
         }
 
         private void Suma()
