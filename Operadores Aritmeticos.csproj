@@ -44,8 +44,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmOpAritmeticos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOpAritmeticos.Designer.cs">
+      <DependentUpon>frmOpAritmeticos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmOpAritmeticos.resx">
+      <DependentUpon>frmOpAritmeticos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
