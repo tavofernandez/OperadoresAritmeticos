@@ -40,7 +40,7 @@ namespace Operadores_Aritmeticos
 
         private void btnmultiplicacion_Click(object sender, EventArgs e)
         {
-            
+            Multiplicacion();
         }
 
         private void Multiplicacion()
