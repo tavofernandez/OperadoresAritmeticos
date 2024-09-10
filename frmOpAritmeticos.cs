@@ -53,6 +53,21 @@ namespace Operadores_Aritmeticos
             lblresultado.Text = resultado.ToString();
         }
 
+        private void btndivision_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Division()
+        {
+            numero1 = Convert.ToDouble(txtnumero1.Text);
+            numero2 = Convert.ToDouble(txtnumero2.Text);
+
+            resultado = numero1 / numero2;
+
+            lblresultado.Text = resultado.ToString();
+        }
+
         private void Suma()
         {
             numero1 = Convert.ToDouble(txtnumero1.Text);

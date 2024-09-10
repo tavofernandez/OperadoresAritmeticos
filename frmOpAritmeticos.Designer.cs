@@ -182,6 +182,7 @@ namespace Operadores_Aritmeticos
             this.btndivision.Size = new System.Drawing.Size(115, 102);
             this.btndivision.TabIndex = 3;
             this.btndivision.UseVisualStyleBackColor = false;
+            this.btndivision.Click += new System.EventHandler(this.btndivision_Click);
             // 
             // btnresta
             // 
