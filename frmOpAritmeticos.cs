@@ -55,7 +55,7 @@ namespace Operadores_Aritmeticos
 
         private void btndivision_Click(object sender, EventArgs e)
         {
-
+            Division();
         }
 
         private void Division()
