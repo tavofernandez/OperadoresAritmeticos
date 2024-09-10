@@ -25,7 +25,7 @@ namespace Operadores_Aritmeticos
 
         private void btnresta_Click(object sender, EventArgs e)
         {
-            
+            Resta();
         }
 
         private void Resta()
