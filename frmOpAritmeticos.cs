@@ -18,6 +18,21 @@ namespace Operadores_Aritmeticos
 
         double numero1, numero2, resultado;
 
+        private void btnsuma_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Suma()
+        {
+            numero1 = Convert.ToDouble(txtnumero1.Text);
+            numero2 = Convert.ToDouble(txtnumero2.Text);
+
+            resultado = numero1 + numero2;
+
+            lblresultado.Text = resultado.ToString();
+        }
+
         private void frmOpAritmeticos_Load(object sender, EventArgs e)
         {
 

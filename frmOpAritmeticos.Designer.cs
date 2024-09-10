@@ -158,6 +158,7 @@ namespace Operadores_Aritmeticos
             this.btnsuma.Size = new System.Drawing.Size(115, 110);
             this.btnsuma.TabIndex = 0;
             this.btnsuma.UseVisualStyleBackColor = false;
+            this.btnsuma.Click += new System.EventHandler(this.btnsuma_Click);
             // 
             // btnmultiplicacion
             // 
