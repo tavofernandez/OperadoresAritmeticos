@@ -23,6 +23,21 @@ namespace Operadores_Aritmeticos
             Suma();
         }
 
+        private void btnresta_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Resta()
+        {
+            numero1 = Convert.ToDouble(txtnumero1.Text);
+            numero2 = Convert.ToDouble(txtnumero2.Text);
+
+            resultado = numero1 - numero2;
+
+            lblresultado.Text = resultado.ToString();
+        }
+
         private void Suma()
         {
             numero1 = Convert.ToDouble(txtnumero1.Text);
