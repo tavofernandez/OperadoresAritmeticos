@@ -100,11 +100,11 @@ namespace Operadores_Aritmeticos
             // 
             this.lblresultado.AutoSize = true;
             this.lblresultado.BackColor = System.Drawing.Color.Transparent;
-            this.lblresultado.Font = new System.Drawing.Font("Franklin Gothic Book", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblresultado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lblresultado.Font = new System.Drawing.Font("Franklin Gothic Book", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblresultado.ForeColor = System.Drawing.Color.Red;
             this.lblresultado.Location = new System.Drawing.Point(576, 565);
             this.lblresultado.Name = "lblresultado";
-            this.lblresultado.Size = new System.Drawing.Size(67, 39);
+            this.lblresultado.Size = new System.Drawing.Size(75, 44);
             this.lblresultado.TabIndex = 4;
             this.lblresultado.Text = "-----";
             // 
