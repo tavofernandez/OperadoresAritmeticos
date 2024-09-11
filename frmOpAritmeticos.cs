@@ -30,12 +30,20 @@ namespace Operadores_Aritmeticos
 
         private void Resta()
         {
-            numero1 = Convert.ToDouble(txtnumero1.Text);
-            numero2 = Convert.ToDouble(txtnumero2.Text);
+            try
+            {
+                numero1 = Convert.ToDouble(txtnumero1.Text);
+                numero2 = Convert.ToDouble(txtnumero2.Text);
 
-            resultado = numero1 - numero2;
+                resultado = numero1 - numero2;
 
-            lblresultado.Text = resultado.ToString();
+                lblresultado.Text = resultado.ToString();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.StackTrace);
+            }
+            
         }
 
         private void btnmultiplicacion_Click(object sender, EventArgs e)
@@ -70,12 +78,20 @@ namespace Operadores_Aritmeticos
 
         private void Suma()
         {
-            numero1 = Convert.ToDouble(txtnumero1.Text);
-            numero2 = Convert.ToDouble(txtnumero2.Text);
+            try
+            {
+                numero1 = Convert.ToDouble(txtnumero1.Text);
+                numero2 = Convert.ToDouble(txtnumero2.Text);
 
-            resultado = numero1 + numero2;
+                resultado = numero1 + numero2;
 
-            lblresultado.Text = resultado.ToString();
+                lblresultado.Text = resultado.ToString();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.StackTrace);
+            }
+            
         }
 
         private void frmOpAritmeticos_Load(object sender, EventArgs e)
