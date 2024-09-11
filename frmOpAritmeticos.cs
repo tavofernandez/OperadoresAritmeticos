@@ -76,7 +76,7 @@ namespace Operadores_Aritmeticos
 
             resultado = numero1 / numero2;
 
-            lblresultado.Text = resultado.ToString();
+            lblresultado.Text = resultado.ToString("N2");
         }
 
         private void Suma()
