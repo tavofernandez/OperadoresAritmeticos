@@ -16,6 +16,7 @@ namespace Operadores_Aritmeticos
             InitializeComponent();
         }
 
+        //declaramos las variables
         double numero1, numero2, resultado;
 
         private void btnsuma_Click(object sender, EventArgs e)
@@ -32,6 +33,7 @@ namespace Operadores_Aritmeticos
         {
             try
             {
+                //validamos los textos de entrada
                 txtnumero1.Text = txtnumero1.Text.Replace(",", ".");
                 txtnumero2.Text = txtnumero2.Text.Replace(",", ".");
 
@@ -40,6 +42,7 @@ namespace Operadores_Aritmeticos
 
                 resultado = numero1 - numero2;
 
+                //el resultado se mostrara en un label
                 lblresultado.Text = resultado.ToString();
             }
             catch (Exception ex)
@@ -76,6 +79,7 @@ namespace Operadores_Aritmeticos
 
             resultado = numero1 / numero2;
 
+            //propiedad para mostrar el resultado con dos decimales
             lblresultado.Text = resultado.ToString("N2");
         }
 
