@@ -89,7 +89,7 @@ namespace Operadores_Aritmeticos
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Gadugi", 27F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Lime;
+            this.label4.ForeColor = System.Drawing.Color.Blue;
             this.label4.Location = new System.Drawing.Point(347, 565);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(197, 43);
