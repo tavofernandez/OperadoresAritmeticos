@@ -1,6 +1,6 @@
-## Implementación de una programa para demostrar el funcionamiento de los operadores aritméticos
+## Aplicación de Operadores Aritméticos
 
 - Proyecto creado en Visual Studio 2019
 - Implementación en Windows Forms
-- Framework: .NET Framework 4
-- Archivo principal: `Operadores Aritmeticos.sln`
+- .NET Framework 4
+- Archivo principal: `OperadoresAritmeticos.sln`
