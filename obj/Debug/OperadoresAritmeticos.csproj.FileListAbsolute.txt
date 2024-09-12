@@ -1,0 +1,9 @@
+C:\Users\TAVO\source\repos\OperadoresAritmeticos\bin\Debug\Operadores Aritmeticos.exe
+C:\Users\TAVO\source\repos\OperadoresAritmeticos\bin\Debug\Operadores Aritmeticos.pdb
+C:\Users\TAVO\source\repos\OperadoresAritmeticos\obj\Debug\OperadoresAritmeticos.csproj.AssemblyReference.cache
+C:\Users\TAVO\source\repos\OperadoresAritmeticos\obj\Debug\Operadores_Aritmeticos.frmOpAritmeticos.resources
+C:\Users\TAVO\source\repos\OperadoresAritmeticos\obj\Debug\Operadores_Aritmeticos.Properties.Resources.resources
+C:\Users\TAVO\source\repos\OperadoresAritmeticos\obj\Debug\OperadoresAritmeticos.csproj.GenerateResource.cache
+C:\Users\TAVO\source\repos\OperadoresAritmeticos\obj\Debug\OperadoresAritmeticos.csproj.CoreCompileInputs.cache
+C:\Users\TAVO\source\repos\OperadoresAritmeticos\obj\Debug\Operadores Aritmeticos.exe
+C:\Users\TAVO\source\repos\OperadoresAritmeticos\obj\Debug\Operadores Aritmeticos.pdb
