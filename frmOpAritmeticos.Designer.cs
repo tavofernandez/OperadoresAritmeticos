@@ -150,7 +150,7 @@ namespace Operadores_Aritmeticos
             // 
             // btnsuma
             // 
-            this.btnsuma.BackColor = System.Drawing.Color.Salmon;
+            this.btnsuma.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnsuma.BackgroundImage = global::Operadores_Aritmeticos.Properties.Resources.mas;
             this.btnsuma.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnsuma.Location = new System.Drawing.Point(3, 3);
